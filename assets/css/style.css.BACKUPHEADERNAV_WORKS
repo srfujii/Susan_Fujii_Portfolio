@@ -2,6 +2,7 @@
 /*** Susan Fujii Portfolio Website CSS ***/
 /*****************************************/
 
+
 /******************** GLOBAL DECLARATIONS ***************/
 /*** Global Variables ***/
 :root {
@@ -48,37 +49,26 @@ p {
 
 
 /******************** HEADER ******************/
-/*** HEADER FLEXBOX FOR NAME AND NAVBAR     ***/
-header,
-.heading,
-nav {
-    display: flex;
-    align-items: center;
-}
-
-/*** Space out the name to the left and the navbar to the right ***/
+/* Default header fonts and color and padding */
 header {
-    padding: 1% 2% 1% 0;
+    padding: 0;
     background-color: var(--richblack);
-    justify-content: space-between;
-}
-
-/*** Give our Name a nice width ***/
-.heading {
-    width: 250px;
 }
 
 /* Name */
 header h1 {
-    width: 100%;
+    display: inline-block;
     font-size: 200%;
     color: var(--richblack);
     background-color: var(--unsplashgreen);
-    padding: 4% 1% 4% 3%;
+    padding: 1% 1% 1% 3%;
 }
 
 /* Navigation Bar */
 header nav {
+    margin: 2% 0 0 0;
+    padding: 1% 1% 1% 0;
+    float: right;
     font-size: 150%;
 }
 
@@ -110,23 +100,19 @@ header nav ul li a:hover {
 
 /******************* HERO IMAGE ***************/
 /*** Hero Banner Image Under Header ***/
-/*** Flexbox for Hero Image and Subtitle for accessibilty and ease of media queries ***/
 .hero {
-    display: flex;
-    flex-direction: column-reverse;
-    justify-content: space-between;
-    align-items: flex-end;
-    height: 40vh;
-    padding: 2% 2% 2% 0;
+    height: 375px;
+    width: 100%;
     margin-bottom: 3%;
     background-image: url("../images/usgs-unsplash.jpg");
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;
 }
 
-/*** Hero Subtitle Styling ***/
+/*** Hero Subtitle ***/
 .hero h2 {
+    position: absolute;
+    margin: 20% 2% 2% 67%;
     padding: 1%;
     background-color: var(--unsplashgreen);
     color: var(--richblack);
@@ -187,12 +173,17 @@ header nav ul li a:hover {
     margin-right: 25px;
 }
 
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
 .empty {
     border-right: 0;
 }
 
-/******************* FLEXBOX FOR WORK SAMPLES **************/
-/*** Flexbox container ***/
+/******************* FLEXBOX FOR OUR WORK SAMPLES **************/
+/*** Our flexbox container ***/
 article {
     display: flex;
     flex-wrap: wrap;
@@ -252,10 +243,17 @@ a:hover .image {
 
 
 /*************** MEDIA QUERIES *******************/
+@media screen and (max-width: 820px) {
+    /* Name */
+    header h1 {
+        display: inline-block;
+        font-size: 200%;
+        color: var(--richblack);
+        background-color: var(--unsplashgreen);
+        padding: 1% 1% 1% 3%;
+    }
 
-/*** At 1100px or less change our body grid to be one column instead of two ***/
-@media screen and (max-width: 1100px) {
-    /*** Change Main Body Grid Container to be one column wide ***/
+    /*** Change Grid Container to be one column wide ***/
     .grid-container {
         display: grid;
         grid-template-columns: 95%;
@@ -265,7 +263,7 @@ a:hover .image {
         margin-bottom: 5%;
     }
 
-    /*** Remove right border and align titles to center for Title class (About Me, Work, Contact Me) ***/
+    /*** Title class for the Titles (About Me, Work, Contact Me) ***/
     .title {
         border-right: 0;
         text-align: center;
@@ -273,66 +271,29 @@ a:hover .image {
         padding-right: 0;
     }
 
-    /*** Center the Flexbox work samples ***/
+    /*** Flexbox container for work samples ***/
     article {
         justify-content: center;
     }
 
-    /*** Change direction of Contact Me Flexbox items from Row to Column and center them ***/
+    /*** Our Contact Me Flexbox Container ***/
     .contactmebox {
         flex-direction: column;
         justify-content: space-between;
         align-items: space-around;
         align-items: center;
     }
-
-    /*** Give the items a little padding ***/
-    .contactme {
-        padding: 2% 2%;
-    }
 }
 
-/*** At 900px or less change our header container to be column instead of row ***/
-/*** Note navbar is still a row within the header container ***/
-@media screen and (max-width: 900px) {
-    /*** Change Header FlexBox to be Column ***/
-    header {
-        display: flex;
-        flex-direction: column;
+@media screen and (max-width: 768px) {
+    body {
+        background-color: var(--verdigrisbluegreen);
     }
 
-    /* Name is now centered */
-    header h1 {
-        text-align: center;
-    }
-
-    /*** Hero Subtitle  is now centered ***/
-    .hero {
-        align-items: center;
-        justify-content: center;
-    }
 }
 
-/*** At 600px or less change our header navbar to be a column ***/ 
-@media screen and (max-width: 600px) {
-    header nav ul {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        width: 481px;
-        padding-bottom: 2%;
-    }
-    
-    header nav ul li {
-        padding: 1% 0;
-        margin-left: 0;
-    }
-}
-
-/*** At 480px or less change About Me paragraph text to be center aligned ***/
 @media screen and (max-width: 480px) {
-
-    .content p {
-        text-align: center;
+    body {
+        background-color: var(--burleywoodyellow);
     }
 }

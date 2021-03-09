@@ -17,9 +17,7 @@
     <header>
         
         <!-- Name -->
-        <div class = "heading">
-            <h1>Susan Fujii</h1>
-        </div>
+        <h1>Susan Fujii</h1>
        
         <!-- Global Site Navigation -->
         <nav>
