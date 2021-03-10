@@ -2,18 +2,18 @@
 
 ## Table of Contents
 
-- [Description] (#Description)
-- [Motivation] (#Motivation)
-- [Why I Built This]
-- [Problem I am Solving](#problem)
-- [What I Learned](#learned)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Screenshots](#screenshots)
-- [Credits](#credits)
-- [License](#license)
-- [Features](#features)
-- [Contribute](#contribute)
+- [Description](#Description)
+- [Motivation](#Motivation)
+- [Why I Built This](#Why-I-Built-This)
+- [Problem I am Solving](#Problem-I-am-Solving)
+- [What I Learned](#What-I-Learned)
+- [Installation](#Installation)
+- [Usage](#Usage)
+- [Screenshots](#Screenshots)
+- [Credits](#Credits)
+- [License](#License)
+- [Features](#Features)
+- [Contribute](#Contribute)
 
 ## Description
 
@@ -33,7 +33,7 @@ Additionally, I wanted this web application to be **accessible** to users who wi
 
 **Accessibility** is an increasingly important consideration for businesses. Web accessibility ensures that people with disabilities can access a website using assistive technologies like video captions, screen readers, and braille keyboards. **Accessible** sites also rank higher in search engines and ensure that **all** users can easily access the information provided.
 
-### The Problem I am Solving {#problem}
+### The Problem I am Solving
 
 Before I created this online portfolio, I had no way to show potential employers my skills and live work samples. This online portfolio will allow me to:
 
@@ -44,7 +44,7 @@ Before I created this online portfolio, I had no way to show potential employers
 5. Link to my LinkedIn, Twitter, and other social accounts
 6. Show that I understand and implement accessibility and responsive design.
 
-### What I Learned {#learned}
+### What I Learned
 
 This was a fun project! I loved trying to match my code to the given mockup as closely as I could, while ensuring everything was functional to the given standards and looked good on multiple screen sizes.
 
@@ -61,17 +61,17 @@ I also did my best to use current HTML 5 semantic code and to comment everything
 In the end, my finished code accomplishes this project's objectives and is hopefully a great starting point for my online portfolio.
 
 
-## Installation {#installation}
+## Installation
 To view this project, simply visit (https://srfujii.github.io/Susan_Fujii_Portfolio)
  
 To install this project on your local machine, simply visit this repo at (https://github.com/srfujii/Susan_Fujii_Portfolio) and use git to clone it to your local environment.
 
 
-## Usage (#usage)
+## Usage
 This single-page website is quite easy to navigate. Simply click on the top navigation links jump to the section you are interested in. The resume opens my resume (actually a sample resume...thank you Dan Clark) :-) in PDF format in a new tab.
 
 
-## Screenshots (#screenshots)
+## Screenshots
 Here are some screenshots for you to preview how my portfolio looks at different screensizes:
 
 ### Large Screen Sizes:
@@ -92,7 +92,7 @@ Here are some screenshots for you to preview how my portfolio looks at different
 - ![bottom of website](./assets/images/04-tiny-bottomwebsite.png)
 
 
-## Credits {#credits}
+## Credits
 
 1. [Rice Technology Bootcamp](https://techbootcamps.rice.edu/)
 
@@ -115,11 +115,11 @@ Here are some screenshots for you to preview how my portfolio looks at different
 4. [How To Create Image Hover Overlay Effects](https://www.w3schools.com/howto/howto_css_image_overlay.asp)
 
 
-## License {#license}
+## License
 [MIT License](./license.txt)
 
 
-## Features {#features}
+## Features
 
 <ol>
     <li>Semantic HTML implemented in HTML and CSS</li>
@@ -136,5 +136,5 @@ Here are some screenshots for you to preview how my portfolio looks at different
 </ol>
 
 
-## How to Contribute {#contribute}
+## How to Contribute
 [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.0-4baaaa.svg)](./code_of_conduct.md)
