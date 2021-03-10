@@ -2,8 +2,8 @@
 
 ## Table of Contents
 
-- [Description]
-- [Motivation]
+- [Description] (#Description)
+- [Motivation] (#Motivation)
 - [Why I Built This]
 - [Problem I am Solving](#problem)
 - [What I Learned](#learned)
