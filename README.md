@@ -2,9 +2,9 @@
 
 ## Table of Contents
 
-- [Description](#description)
-- [Motivation](#motivation)
-- [Why I Built This](#why)
+- [Description]
+- [Motivation]
+- [Why I Built This]
 - [Problem I am Solving](#problem)
 - [What I Learned](#learned)
 - [Installation](#installation)
@@ -15,15 +15,15 @@
 - [Features](#features)
 - [Contribute](#contribute)
 
-## Description {#description}
+## Description
 
 The purpose of this project is to **create a web application from scratch** that can be used as an online portfolio of work to share with potential employers.
 
-### Motivation {#motivation}
+### Motivation
 
 A portfolio of work is used to showcase skills and talents to employers who are looking to fill a part-time or full-time position. An effective portfolio highlights our strongest work as well as our thought processes behind it. Having several live, deployed projects is a minimum requirement to receive an initial interview at many companies, so it is very important to build an online portfolio! 
 
-### Why I Built This {#why}
+### Why I Built This
 
 With these points in mind, in this project I am attempting to set myself up for future success by applying the core skills I've recently learned: flexbox, media queries, and CSS variables.
 
