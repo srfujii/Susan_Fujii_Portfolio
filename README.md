@@ -5,7 +5,7 @@
 - [Description](#Description)
 - [Motivation](#Motivation)
 - [Why I Built This](#Why-I-Built-This)
-- [Problem I am Solving](#Problem-I-am-Solving)
+- [Problem I am Solving](#The-Problem-I-am-Solving)
 - [What I Learned](#What-I-Learned)
 - [Installation](#Installation)
 - [Usage](#Usage)
@@ -13,7 +13,7 @@
 - [Credits](#Credits)
 - [License](#License)
 - [Features](#Features)
-- [Contribute](#Contribute)
+- [Contribute](#How-to-Contribute)
 
 ## Description
 
@@ -75,21 +75,21 @@ This single-page website is quite easy to navigate. Simply click on the top navi
 Here are some screenshots for you to preview how my portfolio looks at different screensizes:
 
 ### Large Screen Sizes:
-- ![top of website](./assets/images/01-large-topwebsite.png)
-- ![middle of website](./assets/images/01-large-midwebsite.png)
-- ![bottom of website](./assets/images/01-large-bottomwebsite.png)
+    ![top of website](./assets/images/01-large-topwebsite.png)
+    ![middle of website](./assets/images/01-large-midwebsite.png)
+    ![bottom of website](./assets/images/01-large-bottomwebsite.png)
 
 ### Medium Screen Sizes:
-- ![top of website](./assets/images/02-med-topwebsite.png)
-- ![bottom of website](./assets/images/02-med-bottomwebsite.png)
+    ![top of website](./assets/images/02-med-topwebsite.png)
+    ![bottom of website](./assets/images/02-med-bottomwebsite.png)
 
 ### Small Screen Sizes:
-- ![top of website](./assets/images/03-small-topwebsite.png)
+    ![top of website](./assets/images/03-small-topwebsite.png)
 
 ### Tiny Screen Sizes:
-- ![top of website](./assets/images/04-tiny-topwebsite.png)
-- ![middle of website](./assets/images/04-tiny-midwebsite.png)
-- ![bottom of website](./assets/images/04-tiny-bottomwebsite.png)
+    ![top of website](./assets/images/04-tiny-topwebsite.png)
+    ![middle of website](./assets/images/04-tiny-midwebsite.png)
+    ![bottom of website](./assets/images/04-tiny-bottomwebsite.png)
 
 
 ## Credits
